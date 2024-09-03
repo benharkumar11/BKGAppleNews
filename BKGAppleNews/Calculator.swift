@@ -20,6 +20,7 @@ class Calculator: UIViewController {
             label.text = String(sender.tag-1)
             numberOnScreen = Double(label.text!)!
             performingMath = false
+            //awsefsefsefwf
         }
         else {
             label.text = label.text! + String(sender.tag-1)
